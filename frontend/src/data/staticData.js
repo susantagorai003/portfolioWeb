@@ -122,6 +122,15 @@ export const defaultProjects = [
     githubLink: "https://github.com/susantagorai003",
     liveLink: "",
   },
+  {
+    _id: "p3",
+    title: "AR-Based Anatomy Platform",
+    description: "Developed an immersive AR-based anatomy learning platform that enables users to explore 3D human body systems in augmented reality. Features include interactive 3D anatomy models, an anatomy library covering 12+ body systems (skeletal, muscular, circulatory, nervous, respiratory, digestive), AR mode for placing models in real-world environments, quizzes for knowledge assessment, and a rich theory learning section.",
+    technologies: ["React.js", "Three.js", "AR.js", "WebXR", "Node.js", "MongoDB"],
+    image: "/projects/ar-anatomy-platform.png",
+    githubLink: "https://github.com/susantagorai003",
+    liveLink: "",
+  },
 ];
 
 export const defaultCertificates = [
@@ -171,6 +180,22 @@ export const defaultCertificates = [
     issuer: "Infosys Springboard",
     date: "August 2025",
     image: "/certificates/build-genai-nocode.png",
+    verificationLink: "https://drive.google.com/drive/folders/1YvdDZspqzpGhHEasd6tQ-cc5rzHHP1X9",
+  },
+  {
+    _id: "c7",
+    title: "Privacy and Security in Online Social Media",
+    issuer: "NPTEL (IIIT Hyderabad & IIT Madras)",
+    date: "April 2025",
+    image: "/certificates/privacy-security-social-media.png",
+    verificationLink: "https://drive.google.com/drive/folders/1YvdDZspqzpGhHEasd6tQ-cc5rzHHP1X9",
+  },
+  {
+    _id: "c8",
+    title: "Basics of Data Structures and Algorithms",
+    issuer: "Lovely Professional University (Centre for Professional Enhancement)",
+    date: "July 2025",
+    image: "/certificates/basics-dsa.png",
     verificationLink: "https://drive.google.com/drive/folders/1YvdDZspqzpGhHEasd6tQ-cc5rzHHP1X9",
   },
 ];
